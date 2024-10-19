@@ -1,5 +1,5 @@
 # Virtual x V3
- A mod menu base for Grand Theft Auto V. Developed by Virtual Engine
+ A mod menu for Grand Theft Auto V. Developed by Virtual Engine
 
 # Projects used
 - MinHook (github.com/TsudaKageyu/minhook)
