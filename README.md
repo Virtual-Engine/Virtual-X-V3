@@ -14,4 +14,4 @@
 
 put on build mode to rel and build
 # Contacts
-Discord - XIFI
+Discord - zenith
