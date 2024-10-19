@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="invoker\invoker.cpp">
+      <Filter>invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\utilities.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking\hooking.cpp">
+      <Filter>hooking\core</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers\pointers.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\interface.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="script\script.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="core\core.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerList.cpp">
+      <Filter>script\features</Filter>
+    </ClCompile>
+    <ClCompile Include="Self.cpp">
+      <Filter>script\features</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp">
+      <Filter>ui\CustomText</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryEdit.cpp">
+      <Filter>invoker\MemEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="BackendRegistry.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="dirs.cpp">
+      <Filter>core\File</Filter>
+    </ClCompile>
+    <ClCompile Include="scaleform.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Translation.cpp">
+      <Filter>ui\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sub.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Footer.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroller.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mousse.cpp">
+      <Filter>ui\Components\input</Filter>
+    </ClCompile>
+    <ClCompile Include="option.cpp">
+      <Filter>ui\Components\option</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>ui\Components\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleInfo.cpp">
+      <Filter>ui\Components\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="OutftisComponents.cpp">
+      <Filter>ui\Components\outfits</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.cpp">
+      <Filter>ui\Components\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuInput.cpp">
+      <Filter>ui\Components\input</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInput.cpp">
+      <Filter>ui\Components\input</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardKey.cpp">
+      <Filter>ui\Components\input\key</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ui\Components\input\key</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptHookV.cpp">
+      <Filter>ScriptHookV</Filter>
+    </ClCompile>
+    <ClCompile Include="VPBypass.cpp">
+      <Filter>ScriptHookV</Filter>
+    </ClCompile>
+    <ClCompile Include="xml.hpp">
+      <Filter>script\util</Filter>
+    </ClCompile>
+    <ClCompile Include="plugixml.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>ui\Components\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="description.cpp">
+      <Filter>ui\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>ScriptHookV</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rage\classes.hpp">
+      <Filter>rage</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker\crossmap.hpp">
+      <Filter>invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker\invoker.hpp">
+      <Filter>invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\utilities.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hooks\script_virtual_machine.hpp">
+      <Filter>hooking\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\detour\detour.hpp">
+      <Filter>hooking\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hooking.hpp">
+      <Filter>hooking\core</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\memory.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers\pointers.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker\natives.hpp">
+      <Filter>invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\interface.hpp">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="script\script.hpp">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="core\core.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Self.h">
+      <Filter>script\features</Filter>
+    </ClInclude>
+    <ClInclude Include="Playerlist.h">
+      <Filter>script\features</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc.h">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.h">
+      <Filter>ui\CustomText</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>ui\CustomText</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryEdit.h">
+      <Filter>invoker\MemEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="joaat.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGloabals.h">
+      <Filter>script\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="atArray.hpp">
+      <Filter>rage\rageScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Bones.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="dirs.h">
+      <Filter>core\File</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleLoader.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerOverseer.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="rlSessionInfo.h">
+      <Filter>script\util\script</Filter>
+    </ClInclude>
+    <ClInclude Include="rlGamerInfoBase.hpp">
+      <Filter>script\util\script</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilVector.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilWeapon.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlUtil.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="clouds.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Weather.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeLoader.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportLocation.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Blip.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="globalHandle.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Rank.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Increase.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="scaleform.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="netShopping.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofing.h">
+      <Filter>script\util\script</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>script\config</Filter>
+    </ClInclude>
+    <ClInclude Include="animatedYTD.h">
+      <Filter>script\config</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponPreview.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.hpp">
+      <Filter>ui\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="sub.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Footer.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroller.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mousse.hpp">
+      <Filter>ui\Components\input</Filter>
+    </ClInclude>
+    <ClInclude Include="option.hpp">
+      <Filter>ui\Components\option</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.hpp">
+      <Filter>ui\Components\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleInfo.hpp">
+      <Filter>ui\Components\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="OutfitsComponents.hpp">
+      <Filter>ui\Components\outfits</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.hpp">
+      <Filter>ui\Components\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuInput.hpp">
+      <Filter>ui\Components\input</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInput.hpp">
+      <Filter>ui\Components\input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboardKey.hpp">
+      <Filter>ui\Components\input\key</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>ui\Components\input\key</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMods.h">
+      <Filter>script\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptHookV.hpp">
+      <Filter>ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="VPBypass.hpp">
+      <Filter>ScriptHookV</Filter>
+    </ClInclude>
+    <ClInclude Include="plugixml.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport.hpp">
+      <Filter>ui\Components\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="description.hpp">
+      <Filter>ui\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BackendRegistry.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="get_proc_adress.hpp">
+      <Filter>hooking\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="fiber.hpp">
+      <Filter>fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.hpp">
+      <Filter>fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>fiber</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\bin\minhook.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rage">
+      <UniqueIdentifier>{7387d412-3305-4bf0-9871-2c0bb8919932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{4f14a5cb-dea9-48eb-8d62-018edce19bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking">
+      <UniqueIdentifier>{f75d01b7-e414-4674-a911-0d53d5120973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\core">
+      <UniqueIdentifier>{451e7e8a-a260-4ec8-b1ba-9971f5cf390d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\detour">
+      <UniqueIdentifier>{912bfe12-dbd0-41c8-8dd7-dcf5752af0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\hooks">
+      <UniqueIdentifier>{e406c715-2899-4353-a084-d7fd1ca04c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fiber">
+      <UniqueIdentifier>{5a0fa850-63d0-45f1-ae15-2b960eee105b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{6db5af75-7931-4dc1-920c-0da91aa32e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{420a7111-147c-4b6c-a324-d77a7ccff9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{28f90a98-9772-4607-835b-d0691d1df9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{488f9c33-e07b-4e1c-b334-eb7e892152f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ffd3801f-48fa-4880-82f5-1fd58283b810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="invoker">
+      <UniqueIdentifier>{b735fdcb-8604-47bd-bde9-0ca6c495a9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{fdbfef31-449d-466f-aa4b-b67d3aed779c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\features">
+      <UniqueIdentifier>{cd484e82-a508-4f3a-845f-9ba701d2f377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\util">
+      <UniqueIdentifier>{230f4ea1-52b1-4aae-a4f2-a086f44661af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{e7d826b0-3cc1-4372-8145-4f0e6dea4716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\Backend">
+      <UniqueIdentifier>{fbfca41e-7637-44e0-a880-f43284c16edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\CustomText">
+      <UniqueIdentifier>{c4d6249a-8f49-4d48-ac23-319c3d1cf314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="invoker\MemEdit">
+      <UniqueIdentifier>{6101b213-c10d-480d-95b4-68a9cb733182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\globals">
+      <UniqueIdentifier>{e0721bab-914b-440a-8e1f-57d0fbbf2b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rage\rageScript">
+      <UniqueIdentifier>{b3ffd6cd-2c1c-41cb-8ee9-3ad384fc39f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\util\script">
+      <UniqueIdentifier>{a44139e5-233e-4ee0-a6fb-7061cdaf1af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\config">
+      <UniqueIdentifier>{68ea4631-80d4-4d54-b084-42d4a408831b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\translate">
+      <UniqueIdentifier>{b978d61c-91a0-46f2-beaf-93bae39a48c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components">
+      <UniqueIdentifier>{2f50c02e-7e44-491c-9b7f-32bbd116ddde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\input">
+      <UniqueIdentifier>{2185dd96-daf5-42ef-8e26-93717cf2764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\option">
+      <UniqueIdentifier>{439b7364-5289-4ef7-bb3e-3def4c973105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\Info">
+      <UniqueIdentifier>{06139dbd-9062-40a1-ab7d-2d7a77b01ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\vehicle">
+      <UniqueIdentifier>{ce66856f-4979-4925-a97e-2a278400d533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\outfits">
+      <UniqueIdentifier>{e3249eb5-e525-4ec6-88fa-326e8d9a3a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\textures">
+      <UniqueIdentifier>{5c530484-8d06-4a8e-bb92-57f7134ff4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\input\key">
+      <UniqueIdentifier>{cfc2f65d-cb7b-4749-aa6b-4e45683e6ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptHookV">
+      <UniqueIdentifier>{26ffc404-d274-4274-bfcc-301a706a1edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Components\teleport">
+      <UniqueIdentifier>{75654f33-ad74-480c-81a1-6499937ca1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\File">
+      <UniqueIdentifier>{cb607cef-c068-4a08-968a-2de5f51349ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
